@@ -597,15 +597,9 @@ section {
   padding: 60px 0;
 }
 
-.price-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-}
-
 .price-item {
   flex: 1 1 0;
-  margin: 0 10px 0 10px;
+  margin: 0 10px  10px 10px;
   background: #fff;
 }
 
@@ -669,6 +663,13 @@ section {
   cursor: pointer;
   background: #87949E;
   color: #17DAA3;
+}
+
+@media screen and (max-width: 996px) {
+  .price-item {
+    min-width: 250px;
+    margin-bottom: 25px;
+  }
 }
 
 /*section maps*/
