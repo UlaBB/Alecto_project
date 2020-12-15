@@ -1,0 +1,30 @@
+@import "./_variables.scss";
+
+
+.ceo-founder{
+  background: url(https://i.postimg.cc/Xq4Gxcxj/Photo.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  color: $white; 
+  text-align: center;
+  margin-bottom: 0;
+  .section-content{
+    padding: 200px 0;
+  }
+  .photo-ceo{
+    width: 104px;
+    height: 104px;
+    border-radius: 100%;
+    background: url(https://i.postimg.cc/HxWBK562/Photo-Adam-Czajkowski.png);
+    margin: 0 auto;
+  }
+  h3{
+    font-size: 30px;
+    font-weight: 200;
+    padding: 30px 0;
+    span{
+      color: $green;
+    }
+  }
+}

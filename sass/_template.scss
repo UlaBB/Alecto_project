@@ -1,0 +1,20 @@
+@import "./_variables.scss";
+
+
+.template{
+    height: 80vh;
+    background: url(https://i.postimg.cc/qqBf85Hp/Try-our-template.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    object-fit: cover;
+    h2{
+      color: $white;
+      padding-top: 60px;
+    }
+  }
+  

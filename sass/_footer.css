@@ -1,0 +1,38 @@
+/*Variables*/
+footer {
+  height: 10vh;
+  color: #576671;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+footer .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-ul {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #576671;
+}
+
+li a:hover {
+  color: #17DAA3;
+}
+
+@media screen and (min-width: 600px) {
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-wrapper .footer-ul {
+    width: 100%;
+  }
+}
